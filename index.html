@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dangrek&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div class="main">
+    <div id="upperBox" class="upperBox">
+        <div class="upperBox1" id="upperBox1">
+            <p class="para">ROCK</p>
+            <p class="para">PAPER</p>
+            <p class="para">SCISSORS</p>
+        </div>
+        <div class="upperBox1 scoreBoard" id="upperBox2">
+            <p class="scoreComputer scoreHead" id="scoreComputer1">COMPUTER <br>SCORE</p>
+                <p class="scoreComHum" id="scoreComNum1">0</p>
+        </div>
+        <div class="upperBox1 scoreBoard" id="upperBox3">
+            <p class="scoreComputer scoreHead" id="scoreComputer2">YOUR <br>SCORE</p>
+            <p class="scoreComHum" id="scoreComNum2">0</p>
+        </div>
+    </div>
+    <div class="picked" id="pickedId">
+        <p class="playerInfo" id="playerInfo1">YOU PICKED</p>
+        <p class="playerInfo" id="playerInfo2">PC PICKED</p>
+    </div>
+
+    <!-- each line of background triangle -->
+        
+            <div class="lines horizontal" >
+                <img src="Line 1.png" alt="">
+            </div>
+        
+            <div class="lines horizontal120" >
+                <img src="Line 3.png" alt="">
+            </div>
+            <div class="lines horizontal60" >
+                <img src="Line 2.png" alt="">
+            </div>
+        
+        <!-- hand images -->
+        <!-- <div class="handImages"> -->
+            <div class="rpc rpc1">
+                <img src="rock.png" alt="">
+            </div>
+            <div class="rpc rpc2">
+                <img src="paper.png" alt="">
+            </div>
+            <div class="rpc rpc3">
+                <img src="scissor.png" alt="">
+            </div>
+        <!-- </div> -->
+
+        <!-- <div class="compImages"> -->
+            <div class="comp rpc1">
+                <img src="rock.png" alt="">
+            </div>
+            <div class="comp rpc2">
+                <img src="paper.png" alt="">
+            </div>
+            <div class="comp rpc3">
+                <img src="scissor.png" alt="">
+            </div>
+        
+        <!-- </div> -->
+        <!-- User win Contents -->
+        <div class="winPage">
+            <h1 class="yourResult">YOU WIN</h1>
+            <h3 class="againstPC">AGAINST PC</h3>
+            <button class="playAgainClass">PLAY AGAIN</button>
+        </div>
+
+        <img src="Ellipse 4.png" alt="" class="winnerImage">
+        <img src="win trophy.png" alt="" class="winnerImageOppn">
+
+</div>
+    <!-- Rule Button and overlay -->
+    
+    <div class="popupMain">
+        <div class="closeRulesBtn"><p id="xSign">X</p></div>
+        <h3>Rules</h3>
+        <ul class="b">
+          <li>Rock beats scissors, scissors beat <br>paper, and paper beats rock.</li>
+          <li>Agree ahead of time whether you'll <br>count off "rock, paper, scissors <br>shoot" or just "rock, paper, scissors."</li>
+          <li>Use rock, paper, scissors to settle <br>minor decisions or simply play to <br>pass the time.</li>
+          <li>If both players lay down the same <br>hand, each player lays down another <br>hand.</li>
+        </ul>
+        
+    </div>
+    <!-- <div class="btn"> -->
+        <input type="button" value="RULES" id="rulesBtn">
+        <input type="button" value="NEXT" class="nextBtn">
+    <!-- </div> -->
+    <div class="congoPage">
+        <img src="Group 5.png" alt="" class="starImage">
+        <img src="Vector.png" alt="" class="trophyImage">
+        <h1>HURRAY!!</h1>
+        <h3>YOU WON THE MATCH</h3>
+        <!-- <input type="button" value="PLAY AGAIN" class="againPlay"> -->
+        <button class="againPlay">PLAY AGAIN</button>
+    </div>
+    
+    <!-- Javascript link -->
+    <script src="index.js"></script>
+</body>
+</html>

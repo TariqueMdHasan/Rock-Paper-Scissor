@@ -1,0 +1,453 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #8CC461;
+    position: fixed;
+}
+.main{
+    display: block;
+}
+#upperBox{
+    width: 130vh;
+    border: 2px solid rgba(255, 255, 255, 1);
+    margin: auto;
+    margin-top: 4vh;
+    margin-left: 21vw;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    /* display: none; */
+}
+.scoreComputer {
+    display: flex;
+    justify-content: center;
+}
+#score{
+    margin-left: 50%;
+}
+.upperBox1{
+    height: 123.812px;
+    width: 123.812px;
+    margin: 7px 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.para{
+    margin: 2px;
+    margin-left: 6px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    color: rgba(255, 255, 255, 1);
+    
+}
+.scoreBoard{
+    background: white;
+    margin: 10px;
+    padding-left: 0px;
+    border-radius: 9px;
+}
+.scoreBoard1{
+
+}
+.scoreHead{
+    color: rgba(101, 101, 101, 1);
+    font-family: "Roboto", sans-serif;
+
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    text-align: center;
+
+
+}
+#upperBox2{
+    margin-left: 54vh;
+}
+.scoreComHum{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 68px;
+    font-weight: 700;
+    line-height: 0px;
+    letter-spacing: 0em;
+
+}
+p#scoreComputer1 {
+    margin: auto;
+}
+p#scoreComputer2 {
+    margin: auto;
+}
+p#scoreComNum1{
+    margin: 35px;
+}
+p#scoreComNum2{
+    margin: 35px;
+}
+
+/* information section (picked)*/
+.picked{
+    width: 100%;
+    margin-top: 34vh;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: white;
+    opacity: 0;
+   /* display: none; */
+   
+}
+
+/* trianular images */
+.horizontal>img{
+    margin-top: 53vh;
+    margin-left: 45vw;
+    position: fixed;
+}
+.horizontal120>img{
+    margin-top: 60vh;
+    margin-left: 44vw;
+    position: fixed;
+}
+.horizontal60>img{
+    margin-top: 60vh;
+    margin-left: 51vw;
+    position: fixed;
+}
+.lines{
+    /* display: none; */
+}
+
+/* user selector */
+.rpc{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: fixed;
+}
+
+/* computer selector */
+.comp{
+    height: 80px;
+    width: 80px;
+    margin-left: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.comp{
+    display: none;
+}
+
+.rpc1{
+    background-color: white;
+    border: 13px solid rgba(0, 116, 182, 1);
+    margin-left: 40vw;
+    margin-top: 46vh;
+    
+    position: absolute;
+ } 
+.rpc1>img{
+    margin-top: 6px;
+}
+.rpc2{
+    background-color: white;
+    border: 13px solid rgba(255, 169, 67, 1);
+    margin-left: 52.5vw;
+    margin-top: 46vh;
+    position: absolute; 
+}
+.rpc2>img{
+    margin-top: 4px;
+    margin-left: 4px;
+}
+.rpc3{
+    background-color: white;
+    border: 13px solid rgba(189, 0, 255, 1);
+    margin-left: 46vw;
+    margin-top: 71vh;
+    position: absolute;
+ }
+.rpc3>img{
+    margin-top: 10px;
+    margin-left: 20px;
+} 
+
+.rpc, .lines{
+    /* display: none; */
+}
+
+
+/* Rules Button and overlay oroperties */
+#rulesBtn{
+    height: 30px;
+    width: 105px;
+    border: 2px solid white;
+    border-radius: 10px;
+
+    margin-left: 87vw;
+    margin-top: 89vh;
+    position: fixed;
+    
+    background: transparent;
+
+    font-family:"Roboto", sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    /* display: none; */
+}
+.leftSide{
+    margin-left: 77vw;
+}
+.nextBtn{
+    height: 30px;
+    width: 105px;
+    border: 2px solid white;
+    border-radius: 10px;
+
+    margin-left: 87vw;
+    margin-top: 89vh;
+    position: fixed;
+    
+    background: transparent;
+
+    font-family:"Roboto", sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    display: none;
+    
+  }
+.popupMain{
+    position: fixed;
+    top: -135%;
+    /* top: 35%; */
+    left: 76%;
+    background: rgba(0, 68, 41, 1);
+    border: 4px solid rgba(255, 255, 255, 1);
+    border-radius: 13px;
+    color: white;
+    font: "roboto", sans-serif;
+    padding: 10px 10px;
+    z-index: 2px;
+
+    font-family:"Roboto", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+  }
+  .popupMain>h3{
+    margin-left: 35%;
+    margin-top: -30%;
+
+    font-family:"Roboto", sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+
+  }
+  ul.b {
+    list-style-type: square;
+  }
+  ul li{
+    margin-bottom: 10px;
+    margin-left: -18px;
+  }
+  li::marker {
+    color: rgba(255, 214, 0, 1);
+    ;
+  }
+  .closeRulesBtn{
+    width: 30px;
+    height: 30px;
+    padding: 10px 10px;
+    position: relative;
+    left: 180px;
+    bottom: 40px;
+    border: 4px solid white;
+    border-radius: 50%;
+    background: red;
+   cursor: pointer;
+  }
+  #xSign{
+    font-size: 44px;
+    margin-top:55%;
+    margin-left: 40%;
+    transform: translate(-50%, -50%);
+    font-family: "Dangrek", sans-serif;
+    font-weight: 400;
+  }
+  body.popupMain-active .popupMain{
+    top: 35%;
+  }
+
+  /* win page */
+  .winPage>h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 46px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    margin-top: 48vh;
+    margin-left: 45vw;
+    color: rgba(255, 255, 255, 1);
+    position: fixed;
+  }
+  .winPage>h3{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 46px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 53vh;
+    margin-left: 46vw;
+    position: fixed;
+  }
+  .winPage>button{
+    width: 174px;
+    height: 40px;
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    
+    color: rgba(107, 107, 107, 1);
+    margin-left: 44vw;
+
+    position: fixed;
+    margin-top: 62vh;
+  }
+
+  .winPage{
+    display: none;
+  }
+
+  .winnerImage{
+    height: 280px;
+    width: 280px;
+    margin-top: 36vh;
+    margin-left: 21.4vw;
+    position: fixed;
+    display: none;
+  }
+
+  .winnerImageOppn{
+    height: 280px;
+    width: 280px;
+    margin-top: 36vh;
+    margin-left: 57.7vw;
+    position: fixed;
+    display: none;
+  }
+  
+  
+  /* to move images under YOU PICKED */
+  .moved{
+    margin-left: 28vw;
+    margin-top: 52vh;
+  }
+  
+  .compMoved{
+    margin-left: 64.5vw;
+    margin-top: 52vh;
+  }
+  .disperse{
+    display: none;
+  }
+
+  /* CONGRATULATUION PAGE */
+.congoPage{
+    height: 86vh;
+    width: 40vw;
+    position: fixed;
+    margin-top: 4vh;
+    margin-left: 29vw;
+    display: none;
+}
+.starImage{
+    position: absolute;
+}
+.trophyImage{
+    position: absolute;
+    margin-top: 18vh;
+    margin-left: 12vw;
+}
+.congoPage>h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 71px;
+    font-weight: 600;
+    line-height: 107px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    margin-top: 51vh;
+    margin-left: 1vw;
+    color: rgba(255, 255, 255, 1);
+    position: absoute;
+}
+.congoPage>h3{
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 107px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    margin-top: -18vh;
+    margin-left: 1vw;
+    color: rgba(255, 255, 255, 1);
+    position: absoute;
+}
+.congoPage>button {
+    width: 174px;
+    height: 40px;
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    color: rgba(107, 107, 107, 1);
+    margin-left: 13vw;
+    position: fixed;
+    margin-top: -9vh;
+}
+
+/* -------------------- */
